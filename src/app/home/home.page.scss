@@ -1,3 +1,15 @@
+.custom-header {
+  background-color: #4CAF50; /* Customize background color */
+}
+
+.custom-title {
+  color: white; /* Customize text color */
+}
+
+.custom-select {
+  font-family: Georgia, serif;
+}
+
 #container {
   text-align: center;
 
@@ -25,3 +37,20 @@
 #container a {
   text-decoration: none;
 }
+
+.popup-content {
+  text-align: center;  /* Memusatkan konten di dalam popup */
+  padding: 10px;       /* Memberikan jarak antara konten dan tepi popup */
+}
+
+.popup-content img {
+  width: 100%;         /* Membuat gambar memenuhi lebar popup */
+  height: auto;        /* Menjaga aspek rasio gambar */
+}
+
+.popup-content b {
+  display: block;      /* Membuat label menjadi block agar berada di bawah gambar */
+  margin-top: 10px;    /* Memberikan jarak antara gambar dan label */
+}
+
+
